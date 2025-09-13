@@ -1,0 +1,35 @@
+{
+  "name": "mutualfundapi",
+  "version": "1.0.0",
+  "description": "- User signup / login (JWT + bcrypt)\r - Add/list/remove holdings\r - Get current portfolio holdings and current values (uses `fund_latest_nav`)\r - Get NAV history for a scheme (from mfapi.in or saved history)\r - Daily cron job fetches latest NAV for schemes present in portfolios",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savio813/mutualFundApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/savio813/mutualFundApi/issues"
+  },
+  "homepage": "https://github.com/savio813/mutualFundApi#readme",
+  "dependencies": {
+    "axios": "^1.12.1",
+    "bcrypt": "^6.0.0",
+    "cron": "^4.3.3",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
