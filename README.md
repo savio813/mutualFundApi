@@ -1,4 +1,4 @@
-# Mutual Fund Portfolio Tracker - Backend (Minimal)
+# Mutual Fund Portfolio Tracker - Backend
 
 ## Features
 - User signup / login (JWT + bcrypt)
